@@ -174,14 +174,6 @@ img {
   align-items: center;
   padding: 20px;
 }
-.bottomHeader {
-  border-top: 2px dashed silver;
-  border-bottom: 2px dashed silver;
-  padding-bottom: 20px;
-}
-h2 {
-  padding-top: 20px;
-}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
@@ -248,4 +240,12 @@ h2 {
   color: white;
   justify-content: space-between;
   width: 80%;
+}
+.home .bottomHeader {
+  border-top: 2px dashed silver;
+  border-bottom: 2px dashed silver;
+  padding-bottom: 20px;
+}
+.home h2 {
+  padding-top: 20px;
 }
