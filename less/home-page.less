@@ -87,11 +87,12 @@
       button {
         .buttonMixin();
       }
+      @media @mobile {
+        width: 80%;
+        padding-left: 50px;
+      }
     }
     }
-
-
-  }
 
   .bottomHeader {
     border-bottom: 2px dashed silver;
@@ -101,8 +102,8 @@
       display:inline-block;
       margin: 0 auto;
       border-top: 2px dashed silver;
+      }
     }
-}
 
 h2 {
     padding-top: 20px;
