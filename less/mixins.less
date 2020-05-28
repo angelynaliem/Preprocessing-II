@@ -1,17 +1,17 @@
 // Mixins in here
-.buttonMixin {
-    border-radius: 12px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 25px;
-    padding-right: 25px;
-    font-size: 1.8rem;
-    font: bold;
-    background-color: teal;
-    color: white;
-    justify-content: space-between;
-    width: 80%;
-    font-family: 'Roboto', sans-serif;
+.buttonMixin (@bradius, @ptop, @pbottom, @pleft, @pright, @fsize, @buttonFont, @bcolor, @buttonColor, @jcontent, @buttonWidth, @buttonFontFamily) {
+    border-radius: @bradius;
+    padding-top: @ptop;
+    padding-bottom: @pbottom;
+    padding-left: @pleft;
+    padding-right: @pright;
+    font-size: @fsize;
+    font: @buttonFont;
+    background-color: @bcolor;
+    color: @buttonColor;
+    justify-content: @jcontent;
+    width: @buttonWidth;
+    font-family: @buttonFontFamily;
     @media @mobile {
         width: 100%;
         text-align: center;
